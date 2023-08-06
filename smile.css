@@ -1,0 +1,56 @@
+body{
+    background-image: radial-gradient(rgb(226, 151, 164),rgb(117, 117, 181));
+    text-align: center;
+    margin-top: 100px;
+}
+.face{
+    background-color: #F9B700;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    margin-top:10%;
+    margin-left:45%;
+    position: relative;
+    border:solid;
+}
+.leye{
+  background-color: black; 
+  border-radius: 50%;
+  height:50px;
+  width:20px;
+  position: absolute;
+  margin-top:20% ;
+  margin-left: 30%;
+}
+.reye{
+    background-color: black; 
+    border-radius: 50%;
+    height:50px;
+    width:20px;
+    position: absolute;
+    margin-top:20% ;
+    margin-left: 65%;
+  }
+  .mouth{
+        position: absolute;
+        background-color: rgb(146, 78, 78);
+        width: 100px;
+        height: 50px;;
+        border-radius: 7px 7px 100px 100px;
+        margin-top:65%;
+        margin-left:28%;
+        border:solid;
+}
+.face:hover{
+    background-image: radial-gradient(pink,yellow);
+}
+.mouth:hover{
+    background-image: rgb(62, 49, 49);
+    height:100px;
+        width:100px;
+        border-radius:50%;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-bottom: 2px solid black;
+        margin-top: 50px;
+}
